@@ -1,0 +1,403 @@
+changeset:   78:3aab8f192f93
+tag:         tip
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu May 01 20:59:07 2014 -0500
+summary:     Lots of comments added. Unused entities removed.
+
+changeset:   77:56566480e547
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu May 01 05:05:07 2014 -0500
+summary:     Proper resetting when time is up.
+
+changeset:   76:82cced4a2e4f
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu May 01 04:11:47 2014 -0500
+summary:     Gems shown for each exit reached.
+
+changeset:   75:cc8802ae7930
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu May 01 01:43:24 2014 -0500
+summary:     Added intermediate state for reseting the game after a Game Over.
+
+changeset:   74:8b3dc414a3f9
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu May 01 01:28:39 2014 -0500
+summary:     Added visible game timer.
+
+changeset:   73:a42abdbd017f
+user:        Matthew <email@email.email>
+date:        Thu May 01 00:49:38 2014 -0500
+summary:     Added progress bar timer functionality.
+
+changeset:   72:2e48926af2c5
+user:        L R <LeftRightAB@gmail.com>
+date:        Wed Apr 30 23:23:00 2014 -0500
+summary:     Able to render title and pause screens, but they're commented out due to insane compilation time increase.
+
+changeset:   71:6f8dcfd40906
+user:        L R <LeftRightAB@gmail.com>
+date:        Wed Apr 30 21:29:44 2014 -0500
+summary:     Pausing enabled. No visible confirmation though.
+
+changeset:   70:c0622f94ea61
+user:        L R <LeftRightAB@gmail.com>
+date:        Wed Apr 30 20:38:16 2014 -0500
+summary:     All animations work.
+
+changeset:   69:ef60dffe8407
+parent:      68:e275c1356b40
+parent:      67:e52db51b510f
+user:        L R <LeftRightAB@gmail.com>
+date:        Wed Apr 30 19:57:01 2014 -0500
+summary:     Sprites for all directions added. Bomberman turns when moving.
+
+changeset:   68:e275c1356b40
+parent:      63:8fd4e858ba0e
+user:        L R <LeftRightAB@gmail.com>
+date:        Wed Apr 30 18:38:37 2014 -0500
+summary:     Stops keyboard input when dead.
+
+changeset:   67:e52db51b510f
+parent:      66:42f37baf6c74
+parent:      63:8fd4e858ba0e
+user:        Matthew <email@email.email>
+date:        Wed Apr 30 18:24:28 2014 -0500
+summary:     Working Exit Condition, Game/Player States, Randomization.
+
+changeset:   66:42f37baf6c74
+user:        Matthew <email@email.email>
+date:        Wed Apr 30 17:56:17 2014 -0500
+summary:     Modified the exit sound.
+
+changeset:   65:72e504155332
+user:        Matthew <email@email.email>
+date:        Wed Apr 30 16:54:57 2014 -0500
+summary:     Bricks are now randomly generated on the exit condition.
+
+changeset:   64:c7827c54f510
+parent:      61:89557fdb5e35
+user:        Matthew <email@email.email>
+date:        Wed Apr 30 16:14:08 2014 -0500
+summary:     Exit tile resets Bomberman's position back to the beginning.
+
+changeset:   63:8fd4e858ba0e
+user:        L R <LeftRightAB@gmail.com>
+date:        Wed Apr 30 17:41:24 2014 -0500
+summary:     Game and Player states implemented. Bomberman can die.
+
+changeset:   62:a2a716f21fc6
+user:        L R <LeftRightAB@gmail.com>
+date:        Wed Apr 30 16:05:28 2014 -0500
+summary:     Added a GameState entity for pausing and the title screen. Connected, but not functional.
+
+changeset:   61:89557fdb5e35
+user:        L R <LeftRightAB@gmail.com>
+date:        Wed Apr 30 03:37:01 2014 -0500
+summary:     Exit panel functions. Level randomizes. 2 pixel leniency for all tile collisions.
+
+changeset:   60:3db9ceb1561f
+user:        Matthew <email@email.email>
+date:        Wed Apr 30 03:06:49 2014 -0500
+summary:     Fix to make RNG correctly work simultaneously with music.
+
+changeset:   59:19de858ccb8b
+parent:      56:6ef79fb7f897
+user:        L R <LeftRightAB@gmail.com>
+date:        Wed Apr 30 00:59:08 2014 -0500
+summary:     Added Exit tile and sprite. Added lenience to vertical movement collision detection.
+
+changeset:   58:a9926f50536a
+user:        L R <LeftRightAB@gmail.com>
+date:        Tue Apr 29 17:47:25 2014 -0500
+summary:     Added game state machine, but broke bomb explosion code. Now, bomb explosion routine has no more variables.
+
+changeset:   57:f33eacfa7a42
+user:        L R <LeftRightAB@gmail.com>
+date:        Sun Apr 27 21:07:16 2014 -0500
+summary:     Optimized bomb explosion routine by removing variables.
+
+changeset:   56:6ef79fb7f897
+user:        L R <LeftRightAB@gmail.com>
+date:        Sun Apr 27 20:52:45 2014 -0500
+summary:     Bugfix: Can no longer lay a bomb during an explosion's disappation period.
+
+changeset:   55:5531408bc73c
+user:        L R <LeftRightAB@gmail.com>
+date:        Sun Apr 27 20:45:19 2014 -0500
+summary:     Massive optimization for clearing tiles after an explosion. Bugfix: Will not draw bomb during explosion.
+
+changeset:   54:8cbebcbc43ac
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 26 05:10:55 2014 -0500
+summary:     All explosions and broken bricks disappate over time.
+
+changeset:   53:942f6a490789
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 26 03:06:50 2014 -0500
+summary:     Bombs create explosions and break breaks. Explosions do not disappate.
+
+changeset:   52:88f111b7e4d9
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 26 02:00:12 2014 -0500
+summary:     Ready to render any type of tile.
+
+changeset:   51:16f4886fd6fc
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 26 01:21:51 2014 -0500
+summary:     Bomb explosion sprites added.
+
+changeset:   50:330ef586071e
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 23:11:22 2014 -0500
+summary:     Bomberman's speed is outputted so that walking animations can be made.
+
+changeset:   49:fa112139f248
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 23:04:33 2014 -0500
+summary:     Renamed all variables from Ball to Bomberman.
+
+changeset:   48:0b70cb8c446c
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 22:43:58 2014 -0500
+summary:     Increased the number of bits in the level so that new tile types could be implemented.
+
+changeset:   47:5632c094c265
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 21:37:42 2014 -0500
+summary:     Added brick tiles that render and can be collided with.
+
+changeset:   46:2ee72f6b5281
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 20:56:32 2014 -0500
+summary:     Bomb is placed based into the tile Bomberman is most 'inside of'.
+
+changeset:   45:690cc2ec06d9
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 20:47:24 2014 -0500
+summary:     Code cleanup
+
+changeset:   44:d4a2d7f7720e
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 20:13:50 2014 -0500
+summary:     Can lay a bomb with Space. It disappears after a time and is locked to a tile.
+
+changeset:   43:e7106a2853ef
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 19:10:12 2014 -0500
+summary:     Level can be edited in real time. No method of doing so yet.
+
+changeset:   42:67bf297a0bc8
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 17:44:35 2014 -0500
+summary:     Made run-time editable level that initializes with a template.
+
+changeset:   41:ae1fc105c475
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 17:31:20 2014 -0500
+summary:     Bomberman collides with all tiles as expected. Off by 1 bugs when moving right or down.
+
+changeset:   40:81a4409a84c3
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 17:09:52 2014 -0500
+summary:     Both tiles above Bomberman correctly collided and reacted to.
+
+changeset:   39:47de5fb5468d
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 16:59:11 2014 -0500
+summary:     Can move down and left reacting to two tiles.
+
+changeset:   38:4652a6c8c449
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 02:18:37 2014 -0500
+summary:     Bomberman's leftwards movement affected by tiles above and below him.
+
+changeset:   37:c7bb995630bd
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 25 01:40:54 2014 -0500
+summary:     Bomberman stops on both tiles below him if either are solid.
+
+changeset:   36:326059a4378a
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 19 20:44:23 2014 -0500
+summary:     Improved rendering quality by adjusted rendering positions and clocking SpriteTable and MapRowAccess.
+
+changeset:   35:7f0ef08c2353
+user:        Matthew <email@email.email>
+date:        Sat Apr 19 03:34:51 2014 -0500
+summary:     Added floor sprite, set up bomb placement demo.
+
+changeset:   34:bcbb02c6cb05
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 19 03:15:50 2014 -0500
+summary:     Collision with tiles in all cardinal directions work.
+
+changeset:   33:51596a10b3f6
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 19 03:05:30 2014 -0500
+summary:     Bugfix: Tile collision looks at the proper Y-axis. Tile reaction above Bomberman works.
+
+changeset:   32:652dbb6d063a
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 19 01:48:43 2014 -0500
+summary:     Reversed the level rendering for easy tile calculations.
+
+changeset:   31:dcdc84a52b8e
+user:        Matthew <email@email.email>
+date:        Sat Apr 19 01:46:18 2014 -0500
+summary:     Added Entity Table to Color Mapper.
+
+changeset:   30:b2453dbc024f
+user:        Matthew <email@email.email>
+date:        Sat Apr 19 00:22:17 2014 -0500
+summary:     working on collision detection with right.
+
+changeset:   29:a2962c344aab
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 19 00:16:32 2014 -0500
+summary:     Added an Entity table. Not connected to the project.
+
+changeset:   28:b70a74aef332
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 18 23:00:43 2014 -0500
+summary:     Proper collision detection and reaction with tiles when moving left.
+
+changeset:   27:2bbd4c21a64b
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 17 17:53:03 2014 -0500
+summary:     Working on collision reaction.
+
+changeset:   26:e1b88fb98c55
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 17 16:40:54 2014 -0500
+summary:     Level collision code readjusted.
+
+changeset:   25:c6c19643c24c
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 17 15:54:31 2014 -0500
+summary:     Removed old, faulty keyboard handler code.
+
+changeset:   24:6af5a5a120b1
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 17 15:51:50 2014 -0500
+summary:     Verified that code compiles.
+
+changeset:   23:a0bd54f29585
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 17 15:31:35 2014 -0500
+summary:     Renaming of files complete. Code compiles.
+
+changeset:   22:e6f84e121994
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 17 15:25:18 2014 -0500
+summary:     Renamed the color mapper.
+
+changeset:   21:3710850832f7
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 17 15:24:55 2014 -0500
+summary:     Renamed various files.
+
+changeset:   20:cf4ff17590c8
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 17 14:05:51 2014 -0500
+summary:     Sprites render for tiles correctly, but backwards.
+
+changeset:   19:a66838e31997
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 17 13:59:48 2014 -0500
+summary:     Proper keyboard module given by TA. Level rendering code broken.
+
+changeset:   18:8e335e204ced
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 17 13:03:22 2014 -0500
+summary:     Level rendering code flipped to be correct. Tested keyboard logic.
+
+changeset:   17:2e02c2faa069
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 17 02:32:53 2014 -0500
+summary:     Tile collision half functional.
+
+changeset:   16:4cc0382f83f3
+user:        Matthew <email@email.email>
+date:        Thu Apr 17 01:40:16 2014 -0500
+summary:     Added bomb entity.
+
+changeset:   15:390227ef97b2
+user:        Matthew <email@email.email>
+date:        Thu Apr 17 01:27:53 2014 -0500
+summary:     Added support for bomb states, sound effects.
+
+changeset:   14:f03fbe7b5bfa
+user:        L R <LeftRightAB@gmail.com>
+date:        Wed Apr 16 23:38:18 2014 -0500
+summary:     Level code reacted to in ball movement code.
+
+changeset:   13:723d236a2920
+user:        L R <LeftRightAB@gmail.com>
+date:        Wed Apr 16 22:51:21 2014 -0500
+summary:     Pixel glitches fixed by using unsigned numbers. Working on reading the level in ball movement code.
+
+changeset:   12:96b5d4e034a5
+user:        L R <LeftRightAB@gmail.com>
+date:        Wed Apr 16 20:47:44 2014 -0500
+summary:     Bomberman stops when the key is released. Buggy.
+
+changeset:   11:f76abb7fa2b8
+user:        Matthew <email@email.email>
+date:        Wed Apr 16 20:20:43 2014 -0500
+summary:     Added support for music and sound.
+
+changeset:   10:fdc469699d2e
+user:        L R <LeftRightAB@gmail.com>
+date:        Wed Apr 16 17:29:04 2014 -0500
+summary:     Working on integrating the level map with movement.
+
+changeset:   9:8973ae1a8537
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 12 02:38:25 2014 -0500
+summary:     Bomberman's sprite uploaded, colors corrected, starting position is now proper.
+
+changeset:   8:b3b77e42a920
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 12 02:00:45 2014 -0500
+summary:     Sprite offsetting implemented.
+
+changeset:   7:a1e428b25df1
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 12 01:10:02 2014 -0500
+summary:     Bugfix: Proper tile rendering. Added room for more sprites.
+
+changeset:   6:26593d846dc0
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 12 00:17:30 2014 -0500
+summary:     Level rendering complete, but tiles have placeholder colors.
+
+changeset:   5:a3ec4c7310db
+user:        L R <LeftRightAB@gmail.com>
+date:        Fri Apr 11 22:13:50 2014 -0500
+summary:     Added level code. Performs just like previous commit.
+
+changeset:   4:8b758b4d9661
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 10 23:02:35 2014 -0500
+summary:     Perfect rendering of a sprite with multiple colors.
+
+changeset:   3:66b8a40e5607
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 10 22:55:48 2014 -0500
+summary:     Bugged: Last column rendered first. Image renders in correct direction now.
+
+changeset:   2:21d9fd654350
+user:        L R <LeftRightAB@gmail.com>
+date:        Thu Apr 10 19:26:18 2014 -0500
+summary:     Successful rendering of a sprite.
+
+changeset:   1:d816e195e895
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 05 02:49:20 2014 -0500
+summary:     Mapped multiple colors.
+
+changeset:   0:3fd3b6601a73
+user:        L R <LeftRightAB@gmail.com>
+date:        Sat Apr 05 02:01:53 2014 -0500
+summary:     Initial commit. Square drawn with origin at upper-left.
+
