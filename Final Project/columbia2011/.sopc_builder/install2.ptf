@@ -1,0 +1,138 @@
+PACKAGE install2 
+{
+   # This file informs the Nios II IDE of TCL component paths.
+   # Generated 2011.05.13.14:26:53
+   COMPONENT DM9000A_IF 
+   {
+      VERSION 2.0.1 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/NAHVG/user_logic_DM9000A";
+      }
+   }
+   COMPONENT DM9000A_IF 
+   {
+      VERSION 1.0 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/NAHVG/user_logic_DM9000A";
+      }
+   }
+   COMPONENT altera_avalon_pixel_converter 
+   {
+      VERSION 7.2 
+      {
+         local = "/opt/e4840/altera7.2/ip/sopc_builder_ip/altera_avalon_pixel_converter";
+      }
+   }
+   COMPONENT altera_avalon_remote_update_cycloneiii 
+   {
+      VERSION 7.2 
+      {
+         local = "/opt/e4840/altera7.2/ip/sopc_builder_ip/altera_avalon_remote_update_cycloneiii";
+      }
+   }
+   COMPONENT altera_avalon_video_sync_generator 
+   {
+      VERSION 7.2 
+      {
+         local = "/opt/e4840/altera7.2/ip/sopc_builder_ip/altera_avalon_video_sync_generator";
+      }
+   }
+   COMPONENT altera_up_avalon_ps2 
+   {
+      VERSION 6.1.1 
+      {
+         local = "/home/user2/spring11/ch2788/altera_up_avalon_ps2";
+      }
+   }
+   COMPONENT de2_led_flasher 
+   {
+      VERSION 1.0 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/lab3";
+      }
+   }
+   COMPONENT de2_led_flasher 
+   {
+      VERSION 1.0 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/pacman_(Yunde_Shi)";
+      }
+   }
+   COMPONENT de2_ps2 
+   {
+      VERSION 1.0.1 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/pacman_(Yunde_Shi)/de2_ps2";
+      }
+   }
+   COMPONENT de2_ps2 
+   {
+      VERSION 1.0 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/final";
+      }
+   }
+   COMPONENT de2_ps2 
+   {
+      VERSION 1.0 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/lab3/de2_ps2/hdl";
+      }
+   }
+   COMPONENT de2_sram_controller 
+   {
+      VERSION 1.0 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/final";
+      }
+   }
+   COMPONENT de2_sram_controller 
+   {
+      VERSION 1.0 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/lab3";
+      }
+   }
+   COMPONENT de2_sram_controller 
+   {
+      VERSION 1.0 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/pacman_(Yunde_Shi)";
+      }
+   }
+   COMPONENT de2_vga_raster 
+   {
+      VERSION 1.0 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/lab3";
+      }
+   }
+   COMPONENT de2_vga_raster1 
+   {
+      VERSION 1.0 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/final";
+      }
+   }
+   COMPONENT de2_vga_raster1 
+   {
+      VERSION 1.0 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/pacman_(Yunde_Shi)";
+      }
+   }
+   COMPONENT de2_wm8731_audio 
+   {
+      VERSION 1.0 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/final";
+      }
+   }
+   COMPONENT de2_wm8731_audio 
+   {
+      VERSION 1.0 
+      {
+         local = "/home/user2/spring11/ch2788/Desktop/lab3";
+      }
+   }
+}

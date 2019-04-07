@@ -1,0 +1,12 @@
+Info (10281): Verilog HDL Declaration information at lab3_mm_interconnect_0_id_router.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at lab3_mm_interconnect_0_id_router.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at lab3_mm_interconnect_0_addr_router.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at lab3_mm_interconnect_0_addr_router.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at VGA_LED_Emulator.sv(137): object "g1" differs only in case from object "G1" in the same scope
+Info (10281): Verilog HDL Declaration information at VGA_LED_Emulator.sv(137): object "g2" differs only in case from object "G2" in the same scope
+Info (10281): Verilog HDL Declaration information at VGA_LED_Emulator.sv(137): object "g3" differs only in case from object "G3" in the same scope
+Info (10281): Verilog HDL Declaration information at VGA_LED_Emulator.sv(137): object "g4" differs only in case from object "G4" in the same scope
+Info (10281): Verilog HDL Declaration information at VGA_LED_Emulator.sv(137): object "g5" differs only in case from object "G5" in the same scope
+Info (10281): Verilog HDL Declaration information at VGA_LED_Emulator.sv(137): object "g6" differs only in case from object "G6" in the same scope
+Warning (10268): Verilog HDL information at VGA_LED_Emulator.sv(1173): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at i2c_controller.v(49): always construct contains both blocking and non-blocking assignments

@@ -1,0 +1,15 @@
+module memory(
+input clk,
+input logic [3:0]  a,
+input logic [7:0]  din,
+input logic 	 we,
+output logic [7:0] dout);
+   
+   logic [7:0] 			 mem [15:0];
+
+   always_ff @(posedge clk) begin
+      if (we) mem[a] <= din;
+      dout <= mem[a];
+   end
+        
+endmodule
